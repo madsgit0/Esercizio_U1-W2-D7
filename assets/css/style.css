@@ -24,6 +24,7 @@ header {
     padding: 2em 1.5em;
     position: sticky;
     top:0;
+    z-index: 3;
 
 }
 header div img {
@@ -70,6 +71,38 @@ section h2 {
 }
 
 /* --------------------------- */
+
+
+.cta{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding: 8px 10px 10px 10px;
+    color: #1e6687;
+    font-size: 20px;
+    background-color: #d1e6f3;
+    border: solid 2px #d1e6f3;
+    border-radius: 15px;
+    margin: 10px;
+}
+.icon:last-child{
+    background-color: lightgrey;
+    border: solid 2px lightgrey;
+
+}
+
+.icon:hover{
+    border: solid 2px #1e6687;
+}
+
+
 article img {
     float: left;
     margin: 10px;
@@ -149,17 +182,11 @@ section h2{
     display: inline;
     position: relative;
     top: -30px;
-    font-weight: bold;
     text-align: start;
     padding: 5px 25px;
     background-color: #a3a5a3;
     box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.622);
 }
-
-
-
-
-
 
 input {
     padding: 5px;

@@ -107,6 +107,7 @@ section h2 {
 .img-box{
     position: relative;
 }
+
 .border {
     width: 110px;
     height: 110px;
@@ -121,27 +122,14 @@ section h2 {
     position: absolute;
     z-index: 0;
   }
-
-
-
+ /* outline */
 article img {
     float: left;
     padding: 5px;
     border: solid 5px white;    
-    margin: 10px 20px 10px 10px;
+    margin: 10px 20px 0px 10px;
     background-color: white;
 }
-
-
-/* .s{
-    width: 100px;
-    height: 100px;
-    float: left;
-    margin: 10px;
-    padding: 5px;
-    border: solid 10px #34a3c8;
-    z-index: 1;
-} */
 
 
 /* ------------------ */
